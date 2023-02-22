@@ -7,6 +7,13 @@ Technology use `NextJS`, `Zustand`, `React-redux`, `material-ui`, `framer-motion
 First, run the development server:
 
 ```bash
+npm install
+# or
+yarn
+```
+After that, run:
+
+```bash
 npm run dev
 # or
 yarn dev
