@@ -79,6 +79,11 @@ const DashboardContent = () => {
 
   return (
     <ThemeProvider theme={mdTheme}>
+        <iframe
+          title={"PDF-Viewer"}
+          src={`https://view.officeapps.live.com/op/embed.aspx?src=https://drka2ad4qb2jh.cloudfront.net/sample3+(1).docx`}
+          style={{ height: "100vh", width: "90vw" }}
+        ></iframe>
       <Box sx={{ display: "flex" }}>
         <CssBaseline />
         <AppBar position="absolute" open={open}>
